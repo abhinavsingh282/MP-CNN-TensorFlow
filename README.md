@@ -1,5 +1,5 @@
 # MP-CNN-TF
-A TensorfFlow implementation of [Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks](http://aclweb.org/anthology/D/D15/D15-1181.pdf)
+A TensorfFlow implementation of [Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks](http://aclweb.org/anthology/D/D15/D15-1181.pdf)  Hua He, Kevin Gimpel, and Jimmy Lin. 
 
 
 ## Requirements
