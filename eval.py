@@ -17,7 +17,7 @@ import csv
 tf.flags.DEFINE_string("test_datafilename", "data/msrparaphrase/msr_paraphrase_test_processed.txt", "Test data file containing sentence pairs and similarity score in one line")
 
 # Eval Parameters
-tf.flags.DEFINE_integer("batch_size", 32, "Batch Size (default: 64)")
+tf.flags.DEFINE_integer("batch_size", 32, "Batch Size")
 tf.flags.DEFINE_string("checkpoint_dir", "", "Checkpoint directory from training run")
 tf.flags.DEFINE_boolean("eval", False, "Evaluate on all training data")
 
