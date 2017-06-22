@@ -33,7 +33,6 @@ for attr, value in sorted(FLAGS.__flags.items()):
     print("{}={}".format(attr.upper(), value))
 print("")
 
-# CHANGE THIS: Load data. Load your own data here
 if FLAGS.eval:
     x1_text,x2_text, y_test = data_helpers.load_data_and_labels(FLAGS.test_datafilename)
     x_combined = x1_text + x2_text
